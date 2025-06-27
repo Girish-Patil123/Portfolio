@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1><span>Girish</span> Patil</h1>
+            <p>
+                I'm working in full stack web development with a focus on Java technologies.
+I enjoy building robust and scalable web applications using Angular for the frontend.
+At the backend, I work with Spring Framework to create efficient and secure APIs.
+            </p>
+
+            <div class="social-media">
+            
+                
+                <a href="https://github.com/Girish-Patil123" target="_blank">
+  <i class='bx bxl-github'></i>
+                <a href="https://www.linkedin.com/in/girish-patil-bb7b5a321/?trk=opento_sprofile_topcard"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="123456.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-code'></i>
+                    <h3>Software Developer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                     <img src="456.png" alt="Angular" style="width: 30px; height: auto; margin-left: 8px;">
+                    <h3>UI/UX Design</h3>
+                </div>
+               <div class="profession" style="--i:3;">
+   
+    <img src="springboot.png" alt="Spring Boot" style="width: 30px; height: auto; margin-left: 8px;">
+    <h3>API Development</h3>
+</div>
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="123.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="portfolio.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>
+                My job is to build your website so that it is functional and 
+                user-friendly but at the same time attractive.
+            </p>
+            <p>
+                Moreover, I add a personal touch to your product, ensuring it is eye-catching and user-friendly.
+My aim is to bring across your message and brand identity in the most creative and impactful way.
+I have created web designs and full-stack solutions for well-known brand companies.
+With expertise in Angular, Spring Boot, and MySQL, I develop seamless and responsive web applications using the Java full-stack development approach.
+            </p>
+          
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>I build scalable, responsive, and secure web applications using Angular (frontend), Spring Boot (backend), and MySQL (database). Whether it's a business website, admin dashboard, or e-commerce platform — I deliver complete end-to-end solutions.</p>
+                
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>UI/UX Design with Frontend Integration</h3>
+                <p>I craft clean, modern, and user-centric interfaces using Angular and Bootstrap 5.
+This combo ensures responsive design, smooth components, and consistent visuals.
+From wireframes to functional frontends, I deliver intuitive user experiences.</p>
+               
+            </div>
+            <div class="services-box">
+    
+    <img src="springboot.png" alt="Spring Boot Logo" style="width: 40px; margin: 10px 0;">
+    <h3>API Development & Integration</h3>
+    <p>
+        Need to connect your app with third-party services or mobile clients? I develop robust and secure RESTful APIs using Spring Boot and integrate them seamlessly into your web ecosystem.
+    </p>
+</div>
+
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="pf1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Portfolio</h4>
+                    <p>Showcasing my work in Java Full-Stack Development with Angular, Spring Boot, and MySQL.
+Explore my projects, skills, and services tailored for modern web solutions.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="plants.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Student Management & Attendance System</h4>
+                    
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="movies.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Movies</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+    </section>
+
+    <!-- testimonial design -->
+    
+
+    <!-- contact section design -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form action="https://formsubmit.co/girishpatil1329@gmail.com" method="POST">
+        <!-- Hidden configuration fields -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_subject" value="New Contact Message from Portfolio">
+
+        <div class="input-box">
+            <input type="text" name="Full Name" placeholder="Full Name" required>
+            <input type="email" name="Email Address" placeholder="Email Address" required>
+        </div>
+        <div class="input-box">
+            <input type="text" name="Mobile Number" placeholder="Mobile Number">
+            <input type="text" name="Subject" placeholder="Email Subject">
+        </div>
+        <textarea name="Message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
